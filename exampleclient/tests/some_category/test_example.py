@@ -5,7 +5,7 @@ from exampleclient.tests import base
 class TestExample(base.BaseTestCase):
 
     def setUp(self):
-        super(TestClients, self).setUp()
+        super(TestExample, self).setUp()
         print("Setup TestExample")
 
     def test_hello(self):
