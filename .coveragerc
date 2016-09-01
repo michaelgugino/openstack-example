@@ -5,5 +5,5 @@ omit = exampleclient/tests/*
 
 [report]
 ignore_errors = False
-fail_under = 00
+fail_under = 100
 show_missing = True
