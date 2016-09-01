@@ -1,4 +1,5 @@
 import exampleclient
+import exampleclient.example
 
 from exampleclient.tests import base
 
