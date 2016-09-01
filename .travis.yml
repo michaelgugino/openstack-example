@@ -1,12 +1,14 @@
 language: python
 install: "pip install tox coveralls --use-mirrors"
 python:
+  - 3.5
+  - 3.4
   - 2.7
   - 2.6
 
 env:
   - TOXENV=cover
-  - TOXENV=py27
+  - TOXENV=functional
 
 
 script: tox
