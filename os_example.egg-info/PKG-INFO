@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: os-example
+Version: 0.0.1.dev2
+Summary: OpenStack Example Client
+Home-page: https://github.com/michaelgugino/openstack-example
+Author: Michael Gugino
+Author-email: gugino.michael@yahoo.com
+License: UNKNOWN
+Description: # openstack-example
+        An example openstack project
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
