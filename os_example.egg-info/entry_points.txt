@@ -1,7 +1,0 @@
-[console_scripts]
-xc = exampleclient.shell:main
-
-[exampleclient.example.hello]
-saygoodbye = exampleclient.example:goodbye
-sayhello = exampleclient.example:hello
-
