@@ -6,6 +6,7 @@ python:
 
 env:
   - TOXENV=cover
+  - TOXENV=py27
 
 
 script: tox
