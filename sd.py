@@ -1,7 +1,7 @@
 import argparse
 import stevedore
 
-exts = stevedore.ExtensionManager(namespace='exampleclient.example.hello')
+exts = stevedore.ExtensionManager(namespace='greeting_apps')
 
 funs = exts.names()
 
