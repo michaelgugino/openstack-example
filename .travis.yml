@@ -9,6 +9,7 @@ python:
 env:
   - TOXENV=cover
   - TOXENV=functional
+  - TOXENV=pep8
 
 
 script: tox
