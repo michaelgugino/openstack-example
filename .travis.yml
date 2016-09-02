@@ -4,11 +4,12 @@ install: "pip install tox coveralls --use-mirrors"
 matrix:
   include:
     - python: 2.7
-      env:
-        - TOXENV=cover
-        - TOXENV=functional
-        - TOXENV=pep8
+      env: TOXENV=cover
+    - python: 2.7
+      env: TOXENV=functional
+    - python: 2.7
+      env: TOXENV=pep8
     - python: 3.4
-        - TOXENV=functional
+      env: TOXENV=functional
 
 script: tox
